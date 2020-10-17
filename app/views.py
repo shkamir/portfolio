@@ -18,7 +18,7 @@ class ProjectListAndFormView(SuccessMessageMixin, ListView, FormView):
     queryset = Project.objects.all().order_by("-pub_date")
     object_list = None
 
-    form_class = ContactForm
+    form_class = ContactForm()
     success_url = '/' 
     success_message = 'Your Form has been successfully submitted!'
 

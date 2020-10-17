@@ -1,0 +1,5 @@
+*sqlite*
+portfolio/
+migrations/
+*__pycache__*
+

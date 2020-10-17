@@ -29,7 +29,7 @@ class ProjectListAndFormView(SuccessMessageMixin, ListView, FormView):
             my_form['name'],
             my_form['message'],
             my_form.get('email', 'noreply@example.com'),
-            ['vlad.moroshan@gmail.com'],
+            ['shekooha696@gmail.com'],
             fail_silently=False
         )
         return super(ProjectListAndFormView, self).form_valid(form)
